@@ -35,7 +35,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/google/go-containerregistry"
+  name = "github.com/justin2997/go-containerregistry"
 
 [[constraint]]
   branch = "master"
