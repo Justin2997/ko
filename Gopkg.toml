@@ -24,6 +24,10 @@
 #   go-tests = true
 #   unused-packages = true
 
+[[constraint]]
+  name = "github.com/google/go-containerregistry"
+  branch = "dev"
+  source = "github.com/justin2997/go-containerregistry"
 
 [[constraint]]
   name = "github.com/fsnotify/fsnotify"
@@ -32,10 +36,6 @@
 [[constraint]]
   name = "github.com/google/go-cmp"
   version = "0.2.0"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/justin2997/go-containerregistry"
 
 [[constraint]]
   branch = "master"

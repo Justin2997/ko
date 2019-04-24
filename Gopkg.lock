@@ -141,9 +141,9 @@
   version = "v0.2.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:907d8921af1cd16f38bc1ab77bce658830a4b46a1e293b627cfc1d7cc66e14b3"
-  name = "github.com/justin2997/go-containerregistry"
+  branch = "dev"
+  digest = "1:3658ff6c020c11da167afccfb98e828d7325eff66208af5839e275959d391da3"
+  name = "github.com/google/go-containerregistry"
   packages = [
     "pkg/authn",
     "pkg/name",
@@ -161,7 +161,8 @@
     "pkg/v1/v1util",
   ]
   pruneopts = "UT"
-  revision = "7df26a6795af089f2cac25d48650d07960b2b33d"
+  revision = "a788fd0bbf8167247afc511435195eb23c31f8be"
+  source = "github.com/justin2997/go-containerregistry"
 
 [[projects]]
   branch = "master"
@@ -170,18 +171,6 @@
   packages = ["."]
   pruneopts = "UT"
   revision = "24818f796faf91cd76ec7bddd72458fbced7a6c1"
-
-[[projects]]
-  digest = "1:80f5b081fa4598e9ce76e1511c0349d0187bc80d1175ee61144638789177b69d"
-  name = "github.com/google/ko"
-  packages = [
-    "pkg/build",
-    "pkg/publish",
-    "pkg/resolve",
-  ]
-  pruneopts = "UT"
-  revision = "021e392d3a3d2c318c79f34c4dd15da2402afce9"
-  version = "v0.1"
 
 [[projects]]
   digest = "1:75eb87381d25cc75212f52358df9c3a2719584eaa9685cd510ce28699122f39d"
@@ -627,9 +616,6 @@
     "github.com/google/go-containerregistry/pkg/v1/random",
     "github.com/google/go-containerregistry/pkg/v1/remote",
     "github.com/google/go-containerregistry/pkg/v1/tarball",
-    "github.com/google/ko/pkg/build",
-    "github.com/google/ko/pkg/publish",
-    "github.com/google/ko/pkg/resolve",
     "github.com/mattmoor/dep-notify/pkg/graph",
     "github.com/spf13/cobra",
     "github.com/spf13/pflag",
