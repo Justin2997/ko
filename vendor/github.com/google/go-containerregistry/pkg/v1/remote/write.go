@@ -391,13 +391,12 @@ func scopesForUploadingImage(ref name.Reference, layers []v1.Layer) []string {
 	}
 
 	scopes := make([]string, 0)
+	// Push scope should be the first element because a few registries just look at the first scope to determine access.
+	scopes = append(scopes, ref.Scope(transport.PushScope))
 
 	for scope := range scopeSet {
 		scopes = append(scopes, scope)
 	}
-
-	// Maybe some registries only look at the last scope?
-	scopes = append(scopes, ref.Scope(transport.PushScope))
 
 	return scopes
 }
