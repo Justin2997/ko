@@ -1,0 +1,53 @@
+module github.com/justin2997/ko
+
+require (
+	github.com/Microsoft/go-winio v0.4.12
+	github.com/docker/distribution v0.0.0-20180327202408-83389a148052
+	github.com/docker/docker v0.0.0-20180531152204-71cd53e4a197
+	github.com/docker/go-connections v0.0.0-20180212134524-7beb39f0b969
+	github.com/docker/go-units v0.0.0-20170127094116-9e638d38cf69
+	github.com/evanphx/json-patch v0.0.0-20190203023257-5858425f7550
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/ghodss/yaml v0.0.0-20150909031657-73d445a93680
+	github.com/gogo/protobuf v0.0.0-20170307180453-100ba4e88506
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/protobuf v1.1.0
+	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
+	github.com/google/go-cmp v0.2.0
+	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d
+	github.com/gregjones/httpcache v0.0.0-20190212212710-3befbb6ad0cc
+	github.com/hashicorp/hcl v1.0.0
+	github.com/imdario/mergo v0.3.5
+	github.com/inconshreveable/mousetrap v1.0.0
+	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be
+	github.com/magiconair/properties v1.8.0
+	github.com/mattmoor/dep-notify v0.0.0-20190205035814-a45dec370a17
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+	github.com/modern-go/reflect2 v1.0.1
+	github.com/opencontainers/go-digest v1.0.0-rc1
+	github.com/opencontainers/image-spec v1.0.1
+	github.com/pelletier/go-toml v1.2.0
+	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c
+	github.com/peterbourgon/diskv v2.0.1+incompatible
+	github.com/pkg/errors v0.8.1
+	github.com/spf13/afero v1.2.1
+	github.com/spf13/cast v1.3.0
+	github.com/spf13/cobra v0.0.3
+	github.com/spf13/jwalterweatherman v1.1.0
+	github.com/spf13/pflag v1.0.3
+	github.com/spf13/viper v1.3.2
+	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
+	golang.org/x/net v0.0.0-20171023174046-5561cd9b4330
+	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
+	golang.org/x/sys v0.0.0-20190312061237-fead79001313
+	golang.org/x/text v0.3.0
+	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
+	gopkg.in/inf.v0 v0.9.0
+	gopkg.in/yaml.v2 v2.2.2
+	k8s.io/api v0.0.0-20180904230853-4e7be11eab3f
+	k8s.io/apimachinery v0.0.0-20180904193909-def12e63c512
+	k8s.io/client-go v8.0.0+incompatible
+	k8s.io/kubernetes v1.11.8
+)
